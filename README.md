@@ -1,10 +1,10 @@
-# 基于BERT的招聘文本薪资预测（2025年大学生统计建模大赛）
+# 基于BERT的招聘文本薪资预测
 
 本项目为“2025 年大学生统计建模大赛”参赛作品，围绕招聘文本进行薪资区间预测。核心流程包括数据爬取、数据分析、特征处理与基于 BERT 的建模训练。
 
 ## 项目内容
 
-- `boss-zhipin-spider.ipynb`：招聘信息采集与数据初步整理。
+- `boss-zhipin-spider.ipynb`：招聘信息采集与数据初步整理。（爬虫需在本地运行，在 notebook 环境无法运行）
 - `boss-zhipin-data-analysis.ipynb`：数据探索性分析与可视化。
 - `boss-zhipin-data-modeling-train.ipynb`：BERT 模型训练与薪资预测实验。
 
@@ -22,8 +22,9 @@
 1. 安装依赖（按需）：
    - Python 3.8+、Jupyter Notebook
    - 相关数据处理与深度学习库（如 pandas、numpy、scikit-learn、transformers、torch 等）
-2. 按顺序运行 Notebook：
-   - `boss-zhipin-spider.ipynb` → `boss-zhipin-data-analysis.ipynb` → `boss-zhipin-data-modeling-train.ipynb`
+2. Notebook说明：
+   - `boss-zhipin-data-analysis.ipynb`，分析 boss 直聘招聘数据
+   - `boss-zhipin-data-modeling-train.ipynb`，微调 BERT 预训练模型进行薪资预测
 
 ## 备注
 
