@@ -12,6 +12,11 @@
 
 - 数据来源（Kaggle）：https://www.kaggle.com/datasets/jeanshendev/boss-zhipin-sample-data
 
+## Kaggle Notebook 链接
+
+- Boss 直聘数据分析：https://www.kaggle.com/code/jeanshendev/boss-zhipin-data-analysis
+- 微调 BERT 预训练模型进行薪资预测：https://www.kaggle.com/code/jeanshendev/boss-zhipin-data-modeling-train
+
 ## 使用说明
 
 1. 安装依赖（按需）：
